@@ -1,10 +1,8 @@
 
 import styled from 'styled-components';
 
+
 const Option = styled.li`
-    display: flex;
-`
-const Options = styled.ul`
     font-size: 16px;
     display: flex;
     justify-content: center;
@@ -14,6 +12,10 @@ const Options = styled.ul`
     padding: 0 5px;
     cursor: pointer;
     min-width: 120px;
+
+`
+const Options = styled.ul`
+    display: flex;
 `
 
 const textOptions = ['CATEGORIAS', 'MINHA ESTANTE', 'FAVORITOS']
