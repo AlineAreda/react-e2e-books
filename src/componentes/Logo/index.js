@@ -10,7 +10,7 @@ const LogoContainer = styled.div`
 const LogoImage = styled.img`
     display: flex;
     margin-right: 5px;   
-    width: 80px;
+    width: 120px;
 `
 function Logo() {
     return (
